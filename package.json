@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "vercel-prebuild": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
