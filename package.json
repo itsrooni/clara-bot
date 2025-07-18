@@ -2,11 +2,9 @@
   "name": "clara-chatbot-ui",
   "version": "1.0.0",
   "scripts": {
-    "install": "npm install --legacy-peer-deps",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "vercel-prebuild": "npm install --legacy-peer-deps"
+    "start": "next start"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
